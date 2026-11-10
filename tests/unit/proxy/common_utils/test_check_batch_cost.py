@@ -2305,7 +2305,7 @@ class TestManagedOutputFileIdEncodesPublicModelGroup:
             CheckBatchCost,
         )
 
-        from enterprise.litellm_enterprise.proxy.hooks.managed_files import PROXY_LiteLLMManagedFiles
+        from litellm_enterprise.proxy.hooks.managed_files import PROXY_LiteLLMManagedFiles
         from litellm.proxy.openai_files_endpoints.common_utils import ManagedBatchOutputFileWriter
         from litellm.types.utils import LiteLLMBatch
 
